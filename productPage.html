@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZWX Product Page</title>
+    <meta name="description" content="ZMX Cooperation for sun shield product.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="css/anime.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/li_icons.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-one" id="header">
+    <header class="d-flex justify-content-end py-3 bg-white ">
+        <h2 class="me-auto">ZWX Cooperation</h2>
+        <ul class="nav navbar-pills" id="navbarSupportedContent">
+            <li class="nav-item"><a href="#product" class="nav-link active">Product</a></li>
+            <li class="nav-item"><a href="#features" class="nav-link ">Features</a></li>
+            <li class="nav-item"><a href="#reviews" class="nav-link ">Reviews</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link ">Contact</a></li>
+        </ul>
+    </header>
+    <div class="d-flex flex-column">
+        <h1 class="text-center">The future is here...</h1>
+        <p class="text-center">If you wondering why you are here, becuase you are uncertain and feel unsafe about your future and want to seek help.</p>
+        <br>
+        <a href="https://www.youtube.com/" class="btn btn-primary btn-lg" style="width: 300px; margin: auto">See a Demo</a>
+        <br>        
+        <img src="images/apple-watch.png" class="apple-watch" alt="apple-watch">
+    </div>
+    </div>
+    <br>
+    <section class="container-two" id="product">
+        <div class="d-flex flex-column">
+        <h2 class="text-center">The product</h2>
+        <p class="text-center">Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
+        </div>
+        <div class="apple-watch-note-feature text-align">
+            <img src="images/apple-watch-2.png" class="apple-watch" alt="apple-watch-2">
+            <div class="feature-note right top fadeInUp">
+                <div class="indicator">
+                    <div class="plus-icon">
+                        <button class="plus" onclick="ShowAndHide('feature-name')">+</button>
+                    </div>
+                    <div id="feature-name" style="display: none;">
+                        metalic strap
+                    </div>
+                </div>
+            </div>
+            <div class="feature-note left top fadeInUp">
+                <div class="indicator">
+                    <div class="plus-icon">
+                        <button class="plus" onclick="ShowAndHide('feature-name-left')">+</button>
+                    </div>
+                    <div id="feature-name-left" style="display: none;">
+                        diamond screen
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section class="container-three" id="features">
+        <div class="d-flex flex-column">
+            <h2 class="text-center">HOW IT WORKS</h2>
+            <p class="text-center">Everybody loves tech gadgets, But our's is different. Here is how it works. Its should be simple and intuitive.</p>
+        </div>
+        <div class="row">
+        <div class="col-sm-4 work-process">
+            <div class="process-icon">
+                <img src="./images/desktop.png" alt="desktop">
+                <h3 class="text-center">Connect Device</h3>
+                <p class="text-center">Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
+            </div>
+        </div>
+        <div class="col-sm-4 work-process">
+            <div class="process-icon">
+                <img src="./images/desktop.png" alt="desktop">
+                <h3 class="text-center">Connect Device</h3>
+                <p class="text-center">Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
+            </div>
+        </div>
+        <div class="col-sm-4 work-process">
+            <div class="process-icon">
+                <img src="./images/desktop.png" alt="desktop">
+                <h3 class="text-center">Connect Device</h3>
+                <p class="text-center">Introduce the product here. A small description about what it is and how it helps the user. You can also add some photos below.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <br>
+    <section class="container-four" id="reviews">
+        <div class="section-header fadeInUp">
+            <h2>THE BENEFITS</h2>
+            <p>With the latest apple watch, you can enjoy bunch of things!</p>
+        </div>
+        <div class="row section-header fadeInUp">
+            <div class="col-sm-6 col-md-4 fadeInUp">
+                <div class="media">
+                    <div class="media-left">
+                        <span>
+                            <i class="li_location"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4>GPS Tracking</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 fadeInUp">
+                <div class="media">
+                    <div class="media-left">
+                        <span>
+                            <i class="li_heart"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4>Heartbeat Monitoring</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 fadeInUp">
+                <div class="media">
+                    <div class="media-left">
+                        <span>
+                            <i class="li_security"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4>Security first</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 fadeInUp">
+                <div class="media">
+                    <div class="media-left">
+                        <span>
+                            <i class="li_idea"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4>Innovative idea</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 fadeInUp">
+                <div class="media">
+                    <div class="media-left">
+                        <span>
+                            <i class="li_bills"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4>Save your bills</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 fadeInUp">
+                <div class="media">
+                    <div class="media-left">
+                        <span>
+                            <i class="li_technology"></i>
+                        </span>
+                    </div>
+                    <div class="media-body">
+                        <h4>Proven technology</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a href="#header" class="back-to-top" style="display: block;">
+        <img src="./images/back_to_top.png" alt="back to top">
+    </a>
+    <script src="./js/productPage.js"></script>
+</body>
+</html>

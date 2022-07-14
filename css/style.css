@@ -1,0 +1,221 @@
+.text-center {
+  margin: auto;
+  font: "Poppins", sans-serif;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.container-one {
+  background: url(../images/header-background.jpg) no-repeat scroll center bottom;
+  background-size: cover;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.container-one .apple-watch {
+  width: 200px;
+  margin: auto;
+}
+.container-one h1 {
+  text-transform: uppercase;
+  font: 600 48px/29px "Poppins", sans-serif;
+  padding-top: 10px;
+  margin: 0 0 25px;
+  line-height: 50px;
+}
+.container-one p {
+  max-width: 780px;
+  margin: 0 auto 40px;
+  font: 300 27px/41px "Poppins", sans-serif;
+  letter-spacing: -0.2px;
+}
+
+.container-two {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.container-two .apple-watch {
+  width: 200px;
+  margin: auto;
+}
+.container-two h2 {
+  text-transform: uppercase;
+  font: 600 48px/29px "Poppins", sans-serif;
+  padding-top: 5px;
+  margin: 0 0 25px;
+  line-height: 50px;
+}
+.container-two p {
+  max-width: 710px;
+  margin: 0 auto 20px;
+  font: 300 20px/32px "Poppins", sans-serif;
+}
+
+.apple-watch-note-feature {
+  position: relative;
+  padding-top: 35px;
+}
+.apple-watch-note-feature .apple-watch {
+  width: 200px;
+  margin: auto;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.feature-note {
+  display: inline-block;
+  height: 115px;
+  position: absolute;
+}
+.feature-note .indicator {
+  margin-top: 67px;
+  width: 192px;
+}
+.feature-note .indicator .plus-icon {
+  height: 49px;
+  width: 49px;
+  border-radius: 100%;
+  padding: 8px;
+  position: relative;
+}
+
+.feature-note.right.top {
+  top: 10px;
+}
+.feature-note.right.top .plus {
+  float: left;
+}
+
+@media (max-width: 1199px) {
+  .feature-note.right.top {
+    right: 130px;
+  }
+}
+@media (max-width: 991px) {
+  .feature-note.right.top {
+    right: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .feature-note.right.top {
+    right: -110px;
+    top: -40px;
+  }
+}
+.feature-note.left.top {
+  top: 115px;
+  left: 1010px;
+}
+.feature-note.left.top .plus {
+  float: right;
+}
+
+@media (max-width: 2000px) {
+  .feature-note.left.top {
+    left: 800px;
+  }
+}
+@media (max-width: 1600px) {
+  .feature-note.left.top {
+    top: 115px;
+    left: 500px;
+  }
+  .feature-note.left.top .plus {
+    float: right;
+  }
+}
+@media (max-width: 1199px) {
+  .feature-note.left.top {
+    left: 400px;
+  }
+}
+@media (max-width: 991px) {
+  .feature-note.left.top {
+    left: 200px;
+  }
+}
+@media (max-width: 767px) {
+  .feature-note.left.top {
+    left: 0px;
+    top: 20px;
+  }
+}
+.container-three {
+  margin-left: 80px;
+  margin-right: 80px;
+  background: #f8fbfd;
+}
+.container-three h2 {
+  text-transform: uppercase;
+  font: 600 48px/29px "Poppins", sans-serif;
+  padding-top: 5px;
+  margin: 0 0 25px;
+  line-height: 50px;
+}
+.container-three p {
+  max-width: 710px;
+  margin: 0 auto 20px;
+  font: 300 20px/32px "Poppins", sans-serif;
+}
+.container-three .process-icon {
+  line-height: 106px;
+}
+.container-three .work-process {
+  text-align: center;
+}
+
+.container-four {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.container-four h2 {
+  text-transform: uppercase;
+  font: 600 48px/29px "Poppins", sans-serif;
+  padding-top: 5px;
+  margin: 0 0 25px;
+  line-height: 50px;
+}
+.container-four p {
+  max-width: 710px;
+  margin: 0 auto 20px;
+  font: 300 20px/32px "Poppins", sans-serif;
+}
+.container-four .media .media-left, .container-four .media .media-body {
+  display: table-cell;
+  padding: 5px;
+}
+
+.back-to-top {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  opacity: 0.3;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.section-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-header:after {
+  content: "";
+  width: 82px;
+  height: 6px;
+  display: block;
+  margin: 0 auto;
+  background: #eee;
+}
+
+/*# sourceMappingURL=style.css.map */
